@@ -1,5 +1,3 @@
-import os
-print(f"TOKEN: {os.environ.get('8380622314:AAHDexQPYFYbz1HF08OEGQohdBxlBPjUa7M')}, CHAT_ID: {os.environ.get('-1003238449730')}")
 import requests
 import time
 import os
