@@ -7,8 +7,8 @@ from datetime import datetime
 
 WALLET_ADDRESS = "0xb317d2bc2d3d2df5fa441b5bae0ab9d8b07283ae"
 
-TELEGRAM_BOT_TOKEN = os.environ.get('8380622314:AAHDexQPYFYbz1HF08OEGQohdBxlBPjUa7M')
-TELEGRAM_CHAT_ID = os.environ.get('-1003238449730')
+TELEGRAM_BOT_TOKEN = os.environ.get("telegram_bot_token")
+TELEGRAM_CHAT_ID = os.environ.get("telegram_chat_id")
 
 CHECK_INTERVAL = 15 * 60  # 15 минут
 
